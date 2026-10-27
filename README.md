@@ -218,7 +218,7 @@ The incident was therefore closed without claiming confirmed malicious activity.
 
 ### Closed Incident
 
-![Closed Failed Logon Incident](screenshots/failed-logon-incident-closed.png)
+![Closed Failed Logon Incident](screenshots/logon-incident-closed.png)
 
 ---
 
