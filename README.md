@@ -71,7 +71,7 @@ The environment was configured to collect security telemetry that could later be
 
 ### Sentinel Overview
 
-![Microsoft Sentinel Overview](screenshots/01-sentinel-overview.png)
+![Microsoft Sentinel Overview](screenshots/sentinel-overview.png)
 
 ---
 
@@ -91,7 +91,7 @@ This returned multiple Windows Security Event IDs, confirming that the log colle
 
 ### Security Event Counts
 
-![Windows Security Event Counts](screenshots/02-security-event-counts.png)
+![Windows Security Event Counts](screenshots/security-event-counts.png)
 
 ---
 
@@ -110,7 +110,7 @@ The Sysmon Operational log was first verified locally using Windows Event Viewer
 
 ### Sysmon Operational Events
 
-![Sysmon Operational Events](screenshots/03-sysmon-operational-events.png)
+![Sysmon Operational Events](screenshots/sysmon-operational-events.png)
 
 A second Data Collection Rule was configured to forward the Sysmon Operational channel into Microsoft Sentinel.
 
@@ -124,7 +124,7 @@ WindowsEvent
 
 ### Sysmon Events in Sentinel
 
-![Sysmon Events in Microsoft Sentinel](screenshots/04-sysmon-sentinel-events.png)
+![Sysmon Events in Microsoft Sentinel](screenshots/sysmon-sentinel-events.png)
 
 The events were also grouped by Event ID:
 
@@ -136,7 +136,7 @@ WindowsEvent
 
 ### Sysmon Event ID Summary
 
-![Sysmon Event ID Summary](screenshots/05-sysmon-event-id-summary.png)
+![Sysmon Event ID Summary](screenshots/sysmon-eventid-summary.png)
 
 ---
 
@@ -218,7 +218,7 @@ The incident was therefore closed without claiming confirmed malicious activity.
 
 ### Closed Incident
 
-![Closed Failed Logon Incident](screenshots/06-failed-logon-incident-closed.png)
+![Closed Failed Logon Incident](screenshots/failed-logon-incident-closed.png)
 
 ---
 
